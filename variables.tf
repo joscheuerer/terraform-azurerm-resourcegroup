@@ -23,5 +23,5 @@ variable "environment" {
 variable "creator" {
   type        = string
   description = "(Optional) Adds a tag indicating the creator of this resource"
-  default     = "cloudcommons"
+  default     = "stackgurdian"
 }
