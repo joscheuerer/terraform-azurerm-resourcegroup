@@ -2,5 +2,4 @@
 provider "azurerm" {
   features {}
   skip_provider_registration = true
-  environment = var.environment.aliases["${terraform.workspace}"].env
 }
