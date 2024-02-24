@@ -1,20 +1,17 @@
 local {
-environment = {
-  default = {
-    env = "production"
-  }
-  aliases = {
-    dev = {
-      env = "development"
+  environment = {
+    default = {
+      env = "production"
     }
-    stg = {
-      env = "staging"
+    aliases = {
+      dev = {
+        env = "development"
+      }
+      stg = {
+        env = "staging"
+      }
     }
   }
-}
-
-
-
 }
 
 
