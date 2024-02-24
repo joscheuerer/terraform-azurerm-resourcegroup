@@ -12,3 +12,7 @@ output "location" {
   value       = var.location
   description = "The location where the resource group was created."
 }
+output "environment" {
+  value       = var.environment
+  description = "The environment used."
+}
