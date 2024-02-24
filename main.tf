@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "main" {
-  name     = var.name
+  name     = ${terraform.workspace}
   location = var.location
   tags = {
     app         = var.app
