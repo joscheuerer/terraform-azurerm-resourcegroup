@@ -15,15 +15,9 @@ variable "app" {
 }
 
 variable "environment" {
+  type        = string
   description = "(Optional) Environment name. If not specified, this module will use workspace as default value"
-  type = object({
-    default = object({
-     env    = string
-    })
-    aliases = map(object({
-      env = string
-    }))
-  })
+  default     = "default"
 }
 
 variable "creator" {
