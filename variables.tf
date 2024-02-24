@@ -1,13 +1,6 @@
 variable "name" {
+  type        = string
   description = "(Required) The name of the resource group. Must be unique on your Azure subscription"
-  type = object({
-    default = object({
-      name        = string
-    })
-    aliases = map(object({
-      name = string
-    }))
-  })
 }
 
 variable "location" {
