@@ -1,2 +1,2 @@
-location = "West Europe"
-name = "ertzuieovckj"
+location = "West Europe",
+name = "ertzuieovckj",
